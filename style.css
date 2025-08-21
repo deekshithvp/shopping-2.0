@@ -1150,11 +1150,6 @@ main {
     animation: slideInFromLeft 0.3s ease-out;
 }
 
-.error-message::before {
-    content: '⚠';
-    font-size: 1rem;
-}
-
 .form-group .input-error {
     border-color: #ff6b6b;
     background: rgba(255, 107, 107, 0.05);
@@ -1174,11 +1169,6 @@ main {
     align-items: center;
     gap: var(--space-xs);
     animation: slideInFromLeft 0.3s ease-out;
-}
-
-.success-message::before {
-    content: '✓';
-    font-size: 1rem;
 }
 
 /* ==========================================================================
@@ -1437,4 +1427,5 @@ main {
 
 .modal-backdrop.active .modal {
     transform: scale(1);
+
 }
